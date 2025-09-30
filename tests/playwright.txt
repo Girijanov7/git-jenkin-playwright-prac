@@ -1,0 +1,16 @@
+ip address for projects-
+
+http://49.249.28.218:8081/TestServer/
+
+difference between json and js
+pacakage.json=metadata
+tests=test eg scripts
+
+confi-
+how to take screenshot,videos
+
+differece bet npm and npx
+npx-node pacakage executor
+
+how to open vs code through folder-
+select everything in search bar--->enter--->type cmd--->type cmd..
