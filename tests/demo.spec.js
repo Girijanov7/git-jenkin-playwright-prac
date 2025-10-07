@@ -9,7 +9,6 @@ test("test 2", async ({ page }) => {
 test("test 3", async ({ page }) => {
   await page.goto("https://playwright.dev/");
 });
-
-test("test 4", async({page})=>{
-  await page.goto("https://www.amazon.in/")
-})
+test ("folder1"), async ({page})=>{
+  await page.goto("https://www.myntra.com")
+});
