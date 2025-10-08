@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { RegisterPage } from '../Demoqa_POM(Scenarios)/RegistrationPage.page';
+import { RegisterPage } from '../Demoqa_POM(Scenarios)/RegistrationPage.page.js';
 import { LoginPage } from '../Demoqa_POM(Scenarios)/Login_Page.page';
 import { ProfilePage } from '../Demoqa_POM(Scenarios)/Profile.page';
 

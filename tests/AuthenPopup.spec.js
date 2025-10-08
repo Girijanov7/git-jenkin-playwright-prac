@@ -11,6 +11,7 @@ const context= await browser.newContext(
 const page =await context.newPage()
 await page.goto('https://basic-auth-git-main-shashis-projects-4fa03ca5.vercel.app/')
 await page.waitForTimeout(2000)
+await page.waitForTimeout(2000)
 
 
 
