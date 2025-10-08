@@ -15,25 +15,25 @@
 
 
 //qspidersDemo
-import {test,expect} from "@playwright/test"
-// test('qspider',async({page})=>{
-//     await page.goto("https://demoapps.qspiders.com/ui?scenario=1")
-// await page.locator('//p[text()="UI Testing Concepts"]/following-sibling::div').click()
-// await expect(page).toHaveTitle("DemoApps | Qspiders | Text Box")
+// import {test,expect} from "@playwright/test"
+// // test('qspider',async({page})=>{
+// //     await page.goto("https://demoapps.qspiders.com/ui?scenario=1")
+// // await page.locator('//p[text()="UI Testing Concepts"]/following-sibling::div').click()
+// // await expect(page).toHaveTitle("DemoApps | Qspiders | Text Box")
 
-//lable text
-await page.getByLabel("name").fill("lakshmi")
-await page.getByPlaceholder("Enter your name").fill("lakshmi")
-await page.getByPlaceholder("Enter Your Email").fill("laksmisingh27dec@gmail.com")
-await page.getByRole('button',{name:"Register"}).click()
+// //lable text
+// await page.getByLabel("name").fill("lakshmi")
+// await page.getByPlaceholder("Enter your name").fill("lakshmi")
+// await page.getByPlaceholder("Enter Your Email").fill("laksmisingh27dec@gmail.com")
+// await page.getByRole('button',{name:"Register"}).click()
 
-partial label text
-await page.getByLabel("nam").fill("lakshmi")
-await page.getByLabel("nam",{exact:false}).fill("laks")
+// // partial label text
+// await page.getByLabel("nam").fill("lakshmi")
+// await page.getByLabel("nam",{exact:false}).fill("laks")
 
-get by Role
-let text1=await page.getByRole('button', {name:"Register"}).textContent()
-console.log(text1);
+// // get by Role
+// let text1=await page.getByRole('button', {name:"Register"}).textContent()
+// console.log(text1);
 
 
 //get by getbyalttext()
@@ -46,7 +46,7 @@ console.log(text1);
 
 // })
 
-test('test3',async({page})=>{
-await page.goto("https://demoapps.qspiders.com/ui/link?sublist=0")
-await
-})
+// test('test3',async({page})=>{
+// await page.goto("https://demoapps.qspiders.com/ui/link?sublist=0")
+// await
+// })
